@@ -1,0 +1,124 @@
+.page{
+	background-color: #FFF8E0;
+	color: black;
+	font-family: "Times"
+}
+a:link{
+	color:blue;
+}
+a:hover{
+	font-weight: bold;
+}
+a:visited{
+	color: hotpink;
+}
+nav.external-links{
+  display:block;
+  list-style-type: none;
+  padding-right: 0px;
+  width: 20%;
+  float:left;
+  vertical-align:top;
+  min-width: 5%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.page{
+	position: absolute;
+	width: 80%;
+	left: 10%;
+}
+ 
+.images{
+	width: 100%;
+	display: inline-block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+footer{
+	text-align: center;
+	font-family: Courier;
+}
+.links ul li {
+	display: none;
+}
+table,th,td{
+border:2px solid black;
+}
+div.content{
+display: block;
+	margin: 10px;
+	padding: 10px;
+}
+table.players{
+	font-family: "arial"
+}
+.sponsor {
+	  display: block;
+	  padding: 0px 0px 0px 10px; 
+    position: fixed;
+    color: black;
+    right: 0px;
+    top: 0px;
+}
+#imgsponsor{
+	position: absolute;
+	z-index: -1;
+	right:0;
+	top:0;
+}
+#page-sponsor{
+	display: none;
+}
+@media screen and (max-width: 850px)
+{
+body
+{
+  font-size: medium;
+
+}
+nav.external-links{
+	display: none;
+}
+nav.links ul li
+{
+  display: inline-block;
+  text-align: justify;
+  padding: 0px;
+  margin-top: 0px;
+}
+.page{
+	float: none;
+	display: inline-block;
+}
+}
+@media screen and (max-width: 620px)
+{
+body
+{
+  font-size: small;
+
+}
+nav.external-links{
+	display: none;
+}
+nav.links ul li
+{
+  display: inline-block;
+  text-align: justify;
+  font-size: small;
+  padding: 0px;
+  margin-top: 0px;
+}
+.page{
+	float: none;
+	display: inline-block;
+}
+.sponsor{
+	display: none;
+}
+#ref-page-sponsor{
+	display: none;
+}
+}
